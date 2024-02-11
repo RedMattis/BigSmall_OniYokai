@@ -1,0 +1,55 @@
+<Defs>
+  <GeneDef ParentName="GeneTailBase">
+		<defName>BS_NekomataTail</defName>
+		<label>nekomata tail</label>
+		<description>Carriers of this gene grow twin cat-tails</description>
+		<iconPath>Humanlike/BodyAttachments/BS_NekomataTail_east</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<selectionWeight>0.1</selectionWeight>
+    <capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<graphicData>
+			<graphicPath>Humanlike/BodyAttachments/BS_NekomataTail</graphicPath>
+			<colorType>Hair</colorType>
+			<drawScale>1.25</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.4)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.1, 0.0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.45, -0.1, -0.05)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneTailBase">
+		<defName>BS_KitsuneTails</defName>
+		<label>kitsune tails</label>
+		<description>Carriers of this gene grow nine fluffy tails</description>
+		<iconPath>Humanlike/BodyAttachments/BS_KitsuneTail_south</iconPath>
+		<biostatCpx>9</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<selectionWeight>0.1</selectionWeight>
+		<graphicData>
+			<graphicPath>Humanlike/BodyAttachments/BS_KitsuneTail</graphicPath>
+			<colorType>Hair</colorType>
+			<drawScale>1.5</drawScale>
+			<drawOffsetNorth>(0.0, 0.2, -0.4)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.1, -0.0)</drawOffsetSouth>
+			<drawOffsetEast>(-0.70, 0.0, 0.05)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

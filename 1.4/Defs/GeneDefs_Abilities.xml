@@ -1,0 +1,180 @@
+<Defs>
+
+  <GeneDef>
+    <defName>BS_NekoReanimate</defName>
+    <label>reanimate</label>
+    <description>Carriers of this gene possess the ability to make the dead come back. It can take a very long time for the target to return.\n\nHigh risk of going wrong and bringing great misfortune.</description>
+    <displayCategory>Archite</displayCategory>
+    <iconPath>GeneIcons/BS_DeadRising</iconPath>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <biostatMet>-1</biostatMet>
+    <minAgeActive>3</minAgeActive>
+    <biostatArc>3</biostatArc>
+    <abilities Inherit="False">
+      <li>BS_NekoReanimate</li>
+    </abilities>
+    <descriptionHyperlinks Inherit="False">
+      <AbilityDef>BS_NekoReanimate</AbilityDef>
+    </descriptionHyperlinks>
+    <selectionWeight>2.0</selectionWeight>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>BS_NekoReanimate</defName>
+    <label>reanimate</label>
+    <description>Curse a corpse to reanimate. Usually brings back the target often with their past allegiances. It can take a very long time.\n\nHigh risk of going wrong and bringing great misfortune</description>
+    <iconPath>GeneIcons/BS_DeadRising</iconPath>
+    <displayOrder>100</displayOrder>
+    <cooldownTicksRange>300000</cooldownTicksRange> <!--5 days-->
+    <warmupEffecter>Bloodfeed_Warmup</warmupEffecter>
+    <!-- <warmupStartSound>Bloodfeed_Cast</warmupStartSound> -->
+    <hostile>true</hostile>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>3</warmupTime>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetBloodfeeders>false</canTargetBloodfeeders>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetCorpses>true</canTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="BigAndSmall.RiseReturned_AbilityEffect"/>
+    </comps>
+    <aiCanUse>false</aiCanUse>
+  </AbilityDef>
+
+
+  <GeneDef>
+    <defName>BS_FoxFire</defName>
+    <label>foxfire</label>
+    <description>Carriers of this gene possess the ability to launch a ball of explosive fire at a nearby target.</description>
+    <displayCategory>Archite</displayCategory>
+    <iconPath>GeneIcons/BS_Fireball</iconPath>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <biostatMet>-2</biostatMet>
+    <minAgeActive>3</minAgeActive>
+    <biostatArc>1</biostatArc>
+    <abilities Inherit="False">
+      <li>BS_KitsuneFireball</li>
+    </abilities>
+    <descriptionHyperlinks Inherit="False">
+      <AbilityDef>BS_KitsuneFireball</AbilityDef>
+    </descriptionHyperlinks>
+    <selectionWeight>2.0</selectionWeight>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+
+  <AbilityDef>
+    <defName>BS_KitsuneFireball</defName>
+    <label>foxfire</label>
+    <description>launch a ball of explosive fire at a nearby target.</description>
+    <iconPath>GeneIcons/BS_Fireball</iconPath>
+    <cooldownTicksRange>1500</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>101</displayOrder>
+    <!-- <warmupStartSound>AcidSpray_Warmup</warmupStartSound> -->
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
+        <projectileDef>BS_Proj_FireExplosive</projectileDef>
+        <radiusToHit>0</radiusToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+
+
+  <GeneDef>
+    <defName>BS_FireJump</defName>
+    <label>fire dash</label>
+    <description>Carriers of this gene can bounce away long distances igniting the area around where they land.\n\nThis ability does not grant immunity to putting yourself on fire as a result.</description>
+    <iconPath>GeneIcons/BS_FireJump</iconPath>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <biostatArc>1</biostatArc>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <displayCategory>Archite</displayCategory>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>flame</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>dasher</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <abilities>
+      <li>BS_FireJump</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>BS_FireJump</AbilityDef>
+    </descriptionHyperlinks>
+    <selectionWeight>1</selectionWeight>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+
+  <AbilityDef>
+    <defName>BS_FireJump</defName>
+    <label>fire dash</label>
+    <description>Jump to a distant location.</description>
+    <iconPath>GeneIcons/BS_FireJump</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <hostile>true</hostile>
+    <charges>3</charges>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0.5</warmupTime>
+      <range>10.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+    <comps>
+      <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
+        <projectileDef>BS_Proj_Fire</projectileDef>
+        <radiusToHit>1</radiusToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>
