@@ -1,9 +1,11 @@
 <ModMetaData>
-	<name>Nekomata, Giant Oni, and other Yokai</name>
+	<!-- <name>Nekomata, Giant Oni, and other Yokai</name> -->
+	<name>Big and Small - Yokai</name>
   <packageId>RedMattis.Yokai</packageId>
 	<author>RedMattis</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>

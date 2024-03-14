@@ -1,8 +1,14 @@
 <loadFolders>
   <v1.4>
     <li>/</li>
-    <li>1.4/</li>
+    <li>1.4</li>
     <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
     <li IfModNotActive="RedMattis.Undead">1.4/Mods/RedMattis_Undead</li>
   </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+    <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
+    <li IfModNotActive="RedMattis.Undead">1.5/Mods/RedMattis_Undead</li>
+  </v1.5>
 </loadFolders>
