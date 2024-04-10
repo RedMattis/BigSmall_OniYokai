@@ -29,7 +29,7 @@
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>BS_NekoReanimate</defName>
     <label>reanimate</label>
-    <description>Curse a corpse to reanimate. Usually brings back the target often with their past allegiances. It can take a very long time.\n\nHigh risk of going wrong and bringing great misfortune</description>
+    <description>Curse a corpse to return. Usually brings back the target often with their past allegiances, but rarely fully alive. It can take a very long time.\n\nHigh risk of going wrong and bringing great misfortune</description>
     <iconPath>GeneIcons/BS_DeadRising</iconPath>
     <displayOrder>100</displayOrder>
     <cooldownTicksRange>300000</cooldownTicksRange> <!--5 days-->
