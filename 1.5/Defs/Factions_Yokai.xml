@@ -55,6 +55,7 @@
 
         <BS_Weaver MayRequire="RedMattis.MoreXenos">0.05</BS_Weaver>
         <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.05</BS_Devilspider>
+        <BS_Troll MayRequire="RedMattis.MoreXenos">0.05</BS_Troll>
         
         <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">0.05</VRE_Lowmate>
         <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.05</BS_BananaSplitSlime>
@@ -77,6 +78,9 @@
         <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.02</BS_ElixirSlime>
         
         <VU_Nosferatu MayRequire="Redmattis.Undead">0.01</VU_Nosferatu>
+
+        <BS_Mimic MayRequire="RedMattis.MoreXenos">0.02</BS_Mimic>
+        <BS_Abomination MayRequire="RedMattis.MoreXenos">0.02</BS_Abomination>
       </xenotypeChances>
     </xenotypeSet>
     <raidCommonalityFromPointsCurve>
