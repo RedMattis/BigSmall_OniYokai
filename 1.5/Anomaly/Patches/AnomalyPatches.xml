@@ -1,0 +1,23 @@
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="BS_NekoReanimate"]/abilities</xpath>
+		<value>
+			<li>BS_ReleaseMiniDeadlifeDust</li>
+		</value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="BS_NekoReanimate"]/descriptionHyperlinks</xpath>
+		<value>
+			<AbilityDef>BS_ReleaseMiniDeadlifeDust</AbilityDef>
+		</value>
+	</Operation> 
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GeneDef[defName="BS_NekoReanimate"]/description</xpath>
+		<value>
+			<description>Carriers of this gene possess the ability to make the dead come back. It can take a very long time for the target to return.\n\nHigh risk of going wrong and bringing great misfortune.\n\nThey can also raise shamblers in a small radius around themselves.</description>
+		</value>
+	</Operation> 
+
+</Patch>

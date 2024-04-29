@@ -116,6 +116,7 @@
 			<li>AptitudeTerrible_Intellectual</li>
 			<li>BS_AlcoholAddict</li>
 			<li>ChemicalDependency_Alcohol</li>
+			<li>BS_SlowAging</li>
 		</genes>
   </XenotypeDef>
 
@@ -166,6 +167,7 @@
 			<li>AptitudeTerrible_Intellectual</li>
 			<li>BS_AlcoholAddict</li>
 			<li>ChemicalDependency_Alcohol</li>
+			<li>BS_VerySlowAging</li>
 		</genes>
   </XenotypeDef>
 
@@ -200,6 +202,7 @@
 			<li>AptitudePoor_Crafting</li>
 			<li>BS_AlcoholAddict</li>
 			<li>ChemicalDependency_Alcohol</li>
+			<li>BS_SlowAging</li>
 		</genes>
   </XenotypeDef>
 
@@ -242,6 +245,7 @@
 			<li>AptitudePoor_Crafting</li>
 			<li>BS_AlcoholAddict</li>
 			<li>ChemicalDependency_Alcohol</li>
+			<li>BS_VerySlowAging</li>
 		</genes>
   </XenotypeDef>
 
@@ -281,6 +285,7 @@
 			<li>BS_AlcoholAddict</li>
 			<li>ChemicalDependency_Alcohol</li>
       <li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+			<li><li>BS_SlowAging</li></li>
 		</genes>
   </XenotypeDef>
 </Defs>

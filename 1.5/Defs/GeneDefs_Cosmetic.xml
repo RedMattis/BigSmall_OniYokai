@@ -19,6 +19,9 @@
         <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
         <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
       </li>
+      <li Class="BetterPrerequisites.GeneExtension">
+        <renderCacheOff>true</renderCacheOff>
+      </li>
     </modExtensions>
     <renderNodeProperties Inherit="False">
       <li>
@@ -32,6 +35,7 @@
           </defaultData>
           <dataNorth>
             <offset>(0.0, 0, -0.4)</offset>
+            <layer>90</layer>
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0, 0.0)</offset>
@@ -69,6 +73,7 @@
           </defaultData>
           <dataNorth>
             <offset>(0.0, 0, -0.4)</offset>
+            <layer>90</layer>
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0, -0.0)</offset>

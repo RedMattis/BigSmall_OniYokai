@@ -55,12 +55,12 @@
 
         <BS_Weaver MayRequire="RedMattis.MoreXenos">0.05</BS_Weaver>
         <BS_Devilspider MayRequire="RedMattis.MoreXenos">0.05</BS_Devilspider>
-        <BS_Troll MayRequire="RedMattis.MoreXenos">0.05</BS_Troll>
         
         <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">0.05</VRE_Lowmate>
         <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.05</BS_BananaSplitSlime>
         <BS_Redcap MayRequire="RedMattis.BigSmall">0.05</BS_Redcap>
         <BS_Svartalf MayRequire="RedMattis.BigSmall">0.05</BS_Svartalf>
+        <BS_Troll MayRequire="RedMattis.BigSmall">0.05</BS_Troll>
         <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</Naga>
         <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</Nagaraj>
         <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</LoS_Gorgon>

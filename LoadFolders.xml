@@ -10,5 +10,6 @@
     <li>1.5</li>
     <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
     <li IfModNotActive="RedMattis.Undead">1.5/Mods/RedMattis_Undead</li>
+    <li IfModActive="Ludeon.Rimworld.Anomaly">1.5/Anomaly</li>
   </v1.5>
 </loadFolders>
