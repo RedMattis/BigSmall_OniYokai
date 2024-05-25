@@ -34,6 +34,7 @@
       <li>Hair_MidBlack</li>
       <li MayRequire="ludeon.rimworld.anomaly">BS_GhoulHead</li>
       <li>Jaw_Baseline</li>
+      <li>BS_LesserDeathless</li>
      </genes>
   </XenotypeDef>
 </Defs>

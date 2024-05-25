@@ -8,6 +8,7 @@
     <combatPowerFactor>2</combatPowerFactor>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>BS_FoxFire</li>
 			<li>DiseaseFree</li>
