@@ -13,6 +13,7 @@
     <factionIconPath>FactionIcons/BS_Yokai</factionIconPath>
     <techLevel>Industrial</techLevel>
     <maxConfigurableAtWorldCreation>10</maxConfigurableAtWorldCreation>
+    <fixedLeaderKinds><li>PirateBoss</li></fixedLeaderKinds>
     <colorSpectrum Inherit="False">
       <li>(1, 0.28, 0.38)</li>
     </colorSpectrum>
