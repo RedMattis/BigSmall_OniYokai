@@ -25,11 +25,13 @@
     </modExtensions>
     <renderNodeProperties Inherit="False">
       <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
         <parentTagDef>Body</parentTagDef>
         <texPath>Humanlike/BodyAttachments/BS_NekomataTail</texPath>
         <drawSize>(1.125,1.125)</drawSize>
         <colorType>Hair</colorType>
         <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
           <defaultData>
             <layer>-2</layer>
           </defaultData>
@@ -63,11 +65,13 @@
     </modExtensions>
     <renderNodeProperties Inherit="False">
       <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
         <parentTagDef>Body</parentTagDef>
         <texPath>Humanlike/BodyAttachments/BS_KitsuneTail</texPath>
         <drawSize>(1.25,1.25)</drawSize>
         <colorType>Hair</colorType>
         <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
           <defaultData>
             <layer>-2</layer>
           </defaultData>
