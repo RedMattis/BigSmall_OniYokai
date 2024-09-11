@@ -15,10 +15,7 @@
       </li>
     </capMods>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-        <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-        <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-      </li>
+
       <li Class="BetterPrerequisites.GeneExtension">
         <renderCacheOff>true</renderCacheOff>
       </li>
@@ -57,12 +54,7 @@
     <biostatCpx>9</biostatCpx>
     <biostatMet>1</biostatMet>
     <selectionWeight>0.1</selectionWeight>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-        <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-        <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-      </li>
-    </modExtensions>
+
     <renderNodeProperties Inherit="False">
       <li>
         <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
