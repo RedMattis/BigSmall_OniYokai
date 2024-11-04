@@ -1,40 +1,8 @@
 <Defs>
-  <XenotypeDef>
+  <XenotypeDef ParentName="VU_Returned">
     <defName>VU_Returned</defName>
-    <label>Returned</label>
-    <description>A person who has come back from death for an unknown reason.</description>
-    <descriptionShort>Revenant.</descriptionShort>
-    <inheritable>true</inheritable>
-    <combatPowerFactor>1.5</combatPowerFactor>
-    <iconPath>GeneIcons/VU_Skull</iconPath>
-    <factionlessGenerationWeight>0</factionlessGenerationWeight>
-    <genes>
-      <li>BS_Deathlike</li>
-      <li>VU_NoBlood</li>
-      <li>VU_Unliving</li>
-      <li>VU_Unliving_Resilience</li>
-      <li>VU_UltraRapidAging</li>
-      <li>Deathless</li>
-      <li>PerfectImmunity</li>
-      <li>Sleepy</li>
-      <li>WoundHealing_VerySlow</li>
-      <li>BS_PainNumb</li>
-      <li>Mood_Pessimist</li>
-      <li>Sterile</li>
-      <li>MinTemp_LargeDecrease</li>
-      <li>MaxTemp_LargeIncrease</li>
-      <li>Head_Gaunt</li>
-      <li>Skin_SlateGray</li>
-      <li>VU_ZombieSkin</li>
-      <li>VU_NosferatuSkin</li>
-      <li>VU_Pallor</li>
-      <li>VU_Libido_None</li>
-      <li>Hair_Gray</li>
-      <li>Hair_SnowWhite</li>
-      <li>Hair_MidBlack</li>
-      <li MayRequire="ludeon.rimworld.anomaly">BS_GhoulHead</li>
-      <li>Jaw_Baseline</li>
-      <li>BS_LesserDeathless</li>
-     </genes>
+  </XenotypeDef>
+  <XenotypeDef ParentName="VU_Returned_Intact">
+    <defName>VU_Returned_Intact</defName>
   </XenotypeDef>
 </Defs>
