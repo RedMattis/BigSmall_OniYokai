@@ -17,9 +17,7 @@
       <AbilityDef>BS_NekoReanimate</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>2.0</selectionWeight>
-    <modExtensions>
-			
-		</modExtensions>
+
   </GeneDef>
 
   <AbilityDef ParentName="AbilityTouchBase">
@@ -71,9 +69,7 @@
       <AbilityDef>BS_KitsuneFireball</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>2.0</selectionWeight>
-    <modExtensions>
-			
-		</modExtensions>
+
   </GeneDef>
 
   <AbilityDef>
@@ -129,9 +125,7 @@
       <AbilityDef>BS_FireJump</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>1</selectionWeight>
-    <modExtensions>
-			
-		</modExtensions>
+
   </GeneDef>
 
   <AbilityDef>

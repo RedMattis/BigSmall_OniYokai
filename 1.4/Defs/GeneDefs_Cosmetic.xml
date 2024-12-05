@@ -3,7 +3,7 @@
 		<defName>BS_NekomataTail</defName>
 		<label>nekomata tail</label>
 		<description>Carriers of this gene grow twin cat-tails</description>
-		<iconPath>Humanlike/BodyAttachments/BS_NekomataTail_east</iconPath>
+		<iconPath>BS_BodyAttachments/BS_NekomataTail_east</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<selectionWeight>0.1</selectionWeight>
@@ -14,7 +14,7 @@
 			</li>
 		</capMods>
 		<graphicData>
-			<graphicPath>Humanlike/BodyAttachments/BS_NekomataTail</graphicPath>
+			<graphicPath>BS_BodyAttachments/BS_NekomataTail</graphicPath>
 			<colorType>Hair</colorType>
 			<drawScale>1.25</drawScale>
 			<drawOffsetNorth>(0.0, 0.2, -0.4)</drawOffsetNorth>
@@ -33,12 +33,12 @@
 		<defName>BS_KitsuneTails</defName>
 		<label>kitsune tails</label>
 		<description>Carriers of this gene grow nine fluffy tails</description>
-		<iconPath>Humanlike/BodyAttachments/BS_KitsuneTail_south</iconPath>
+		<iconPath>BS_BodyAttachments/BS_KitsuneTail_south</iconPath>
 		<biostatCpx>9</biostatCpx>
 		<biostatMet>1</biostatMet>
 		<selectionWeight>0.1</selectionWeight>
 		<graphicData>
-			<graphicPath>Humanlike/BodyAttachments/BS_KitsuneTail</graphicPath>
+			<graphicPath>BS_BodyAttachments/BS_KitsuneTail</graphicPath>
 			<colorType>Hair</colorType>
 			<drawScale>1.5</drawScale>
 			<drawOffsetNorth>(0.0, 0.2, -0.4)</drawOffsetNorth>

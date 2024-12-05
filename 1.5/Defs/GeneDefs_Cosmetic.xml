@@ -4,7 +4,7 @@
     <defName>BS_NekomataTail</defName>
     <label>nekomata tail</label>
     <description>Carriers of this gene grow twin cat-tails</description>
-    <iconPath>Humanlike/BodyAttachments/BS_NekomataTail_east</iconPath>
+    <iconPath>BS_BodyAttachments/BS_NekomataTail_east</iconPath>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-1</biostatMet>
     <selectionWeight>0.1</selectionWeight>
@@ -24,7 +24,7 @@
       <li>
         <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
         <parentTagDef>Body</parentTagDef>
-        <texPath>Humanlike/BodyAttachments/BS_NekomataTail</texPath>
+        <texPath>BS_BodyAttachments/BS_NekomataTail</texPath>
         <drawSize>(1.125,1.125)</drawSize>
         <colorType>Hair</colorType>
         <drawData>
@@ -50,7 +50,7 @@
     <defName>BS_KitsuneTails</defName>
     <label>kitsune tails</label>
     <description>Carriers of this gene grow nine fluffy tails</description>
-    <iconPath>Humanlike/BodyAttachments/BS_KitsuneTail_south</iconPath>
+    <iconPath>BS_BodyAttachments/BS_KitsuneTail_south</iconPath>
     <biostatCpx>9</biostatCpx>
     <biostatMet>1</biostatMet>
     <selectionWeight>0.1</selectionWeight>
@@ -59,7 +59,7 @@
       <li>
         <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
         <parentTagDef>Body</parentTagDef>
-        <texPath>Humanlike/BodyAttachments/BS_KitsuneTail</texPath>
+        <texPath>BS_BodyAttachments/BS_KitsuneTail</texPath>
         <drawSize>(1.25,1.25)</drawSize>
         <colorType>Hair</colorType>
         <drawData>
