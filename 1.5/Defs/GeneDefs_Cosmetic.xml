@@ -16,7 +16,7 @@
     </capMods>
     <modExtensions>
 
-      <li Class="BetterPrerequisites.GeneExtension">
+      <li Class="BigAndSmall.PawnExtension">
         <renderCacheOff>true</renderCacheOff>
       </li>
     </modExtensions>

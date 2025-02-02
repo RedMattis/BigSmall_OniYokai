@@ -83,6 +83,7 @@
         <BS_Mimic MayRequire="RedMattis.MoreXenos">0.02</BS_Mimic>
         <BS_Abomination MayRequire="RedMattis.MoreXenos">0.02</BS_Abomination>
         <BS_Broodmother MayRequire="RedMattis.MoreXenos">0.02</BS_Broodmother>
+        <BS_Troll MayRequire="RedMattis.BigSmall">0.02</BS_Troll>
       </xenotypeChances>
     </xenotypeSet>
     <raidCommonalityFromPointsCurve>
@@ -100,6 +101,8 @@
         <options>
           <Tribal_ChiefRanged>5</Tribal_ChiefRanged>
           <Tribal_ChiefMelee>5</Tribal_ChiefMelee>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">5</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">3</BS_Troll_Ranged_Adult>
           <PirateBoss>1</PirateBoss>
           <Town_Guard>10</Town_Guard>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
@@ -131,6 +134,10 @@
         <options>
           <Villager>20</Villager>
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">3</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">3</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">2</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
         </options>
@@ -151,6 +158,10 @@
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">2</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
         </guards>
       </li>
       <li>
@@ -160,6 +171,10 @@
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">2</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
