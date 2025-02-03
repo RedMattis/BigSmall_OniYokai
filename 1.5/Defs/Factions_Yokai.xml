@@ -83,7 +83,6 @@
         <BS_Mimic MayRequire="RedMattis.MoreXenos">0.02</BS_Mimic>
         <BS_Abomination MayRequire="RedMattis.MoreXenos">0.02</BS_Abomination>
         <BS_Broodmother MayRequire="RedMattis.MoreXenos">0.02</BS_Broodmother>
-        <BS_Troll MayRequire="RedMattis.BigSmall">0.02</BS_Troll>
       </xenotypeChances>
     </xenotypeSet>
     <raidCommonalityFromPointsCurve>
