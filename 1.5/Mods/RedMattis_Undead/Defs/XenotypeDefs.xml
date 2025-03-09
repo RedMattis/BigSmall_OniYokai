@@ -5,4 +5,7 @@
   <XenotypeDef ParentName="VU_Returned_Intact">
     <defName>VU_Returned_Intact</defName>
   </XenotypeDef>
+  <XenotypeDef ParentName="VU_ReturnedSkeletal">
+    <defName>VU_ReturnedSkeletal</defName>
+  </XenotypeDef>
 </Defs>
