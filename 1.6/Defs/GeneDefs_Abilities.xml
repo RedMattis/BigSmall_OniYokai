@@ -17,18 +17,13 @@
       <AbilityDef>BS_NekoReanimate</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>2.0</selectionWeight>
-    <modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
+
   </GeneDef>
 
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>BS_NekoReanimate</defName>
     <label>reanimate</label>
-    <description>Curse a corpse to reanimate. Usually brings back the target often with their past allegiances. It can take a very long time.\n\nHigh risk of going wrong and bringing great misfortune</description>
+    <description>Curse a corpse to return. Usually brings back the target often with their past allegiances, but rarely fully alive. It can take a very long time.\n\nHigh risk of going wrong and bringing great misfortune</description>
     <iconPath>GeneIcons/BS_DeadRising</iconPath>
     <displayOrder>100</displayOrder>
     <cooldownTicksRange>300000</cooldownTicksRange> <!--5 days-->
@@ -64,7 +59,7 @@
     <displayCategory>Archite</displayCategory>
     <iconPath>GeneIcons/BS_Fireball</iconPath>
     <canGenerateInGeneSet>true</canGenerateInGeneSet>
-    <biostatMet>-2</biostatMet>
+    <biostatMet>0</biostatMet>
     <minAgeActive>3</minAgeActive>
     <biostatArc>1</biostatArc>
     <abilities Inherit="False">
@@ -74,12 +69,7 @@
       <AbilityDef>BS_KitsuneFireball</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>2.0</selectionWeight>
-    <modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
+
   </GeneDef>
 
   <AbilityDef>
@@ -116,7 +106,7 @@
     <description>Carriers of this gene can bounce away long distances igniting the area around where they land.\n\nThis ability does not grant immunity to putting yourself on fire as a result.</description>
     <iconPath>GeneIcons/BS_FireJump</iconPath>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-2</biostatMet>
+    <biostatMet>0</biostatMet>
     <biostatArc>1</biostatArc>
     <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <displayCategory>Archite</displayCategory>
@@ -135,12 +125,6 @@
       <AbilityDef>BS_FireJump</AbilityDef>
     </descriptionHyperlinks>
     <selectionWeight>1</selectionWeight>
-    <modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
   </GeneDef>
 
   <AbilityDef>

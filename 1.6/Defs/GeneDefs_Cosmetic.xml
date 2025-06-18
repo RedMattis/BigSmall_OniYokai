@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<Defs>
+  <GeneDef ParentName="GeneTailBase">
+    <defName>BS_NekomataTail</defName>
+    <label>nekomata tail</label>
+    <description>Carriers of this gene grow twin cat-tails</description>
+    <iconPath>BS_BodyAttachments/BS_NekomataTail_east</iconPath>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0.1</selectionWeight>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>0.05</offset>
+      </li>
+    </capMods>
+    <modExtensions>
+
+      <li Class="BigAndSmall.PawnExtension">
+        <renderCacheOff>true</renderCacheOff>
+      </li>
+    </modExtensions>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>BS_BodyAttachments/BS_NekomataTail</texPath>
+        <drawSize>(1.125,1.125)</drawSize>
+        <colorType>Hair</colorType>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, -0.4)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, 0.0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.45, 0, -0.05)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  <GeneDef ParentName="GeneTailBase">
+    <defName>BS_KitsuneTails</defName>
+    <label>kitsune tails</label>
+    <description>Carriers of this gene grow nine fluffy tails</description>
+    <iconPath>BS_BodyAttachments/BS_KitsuneTail_south</iconPath>
+    <biostatCpx>9</biostatCpx>
+    <biostatMet>1</biostatMet>
+    <selectionWeight>0.1</selectionWeight>
+
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>BS_BodyAttachments/BS_KitsuneTail</texPath>
+        <drawSize>(1.25,1.25)</drawSize>
+        <colorType>Hair</colorType>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, -0.4)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, -0.0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.7, 0, 0.05)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+</Defs>

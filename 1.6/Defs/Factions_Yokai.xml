@@ -13,6 +13,7 @@
     <factionIconPath>FactionIcons/BS_Yokai</factionIconPath>
     <techLevel>Industrial</techLevel>
     <maxConfigurableAtWorldCreation>10</maxConfigurableAtWorldCreation>
+    <fixedLeaderKinds><li>PirateBoss</li></fixedLeaderKinds>
     <colorSpectrum Inherit="False">
       <li>(1, 0.28, 0.38)</li>
     </colorSpectrum>
@@ -60,6 +61,7 @@
         <BS_BananaSplitSlime MayRequire="RedMattis.BSSlimes">0.05</BS_BananaSplitSlime>
         <BS_Redcap MayRequire="RedMattis.BigSmall">0.05</BS_Redcap>
         <BS_Svartalf MayRequire="RedMattis.BigSmall">0.05</BS_Svartalf>
+        <BS_Troll MayRequire="RedMattis.BigSmall">0.05</BS_Troll>
         <Naga MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</Naga>
         <Nagaraj MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</Nagaraj>
         <LoS_Gorgon MayRequire="RedMattis.LamiasAndOtherSnakes">0.05</LoS_Gorgon>
@@ -77,8 +79,11 @@
         <BS_ElixirSlime MayRequire="RedMattis.BSSlimes">0.02</BS_ElixirSlime>
         
         <VU_Nosferatu MayRequire="Redmattis.Undead">0.01</VU_Nosferatu>
+
+        <BS_Mimic MayRequire="RedMattis.MoreXenos">0.02</BS_Mimic>
+        <BS_Abomination MayRequire="RedMattis.MoreXenos">0.02</BS_Abomination>
+        <BS_Broodmother MayRequire="RedMattis.MoreXenos">0.02</BS_Broodmother>
       </xenotypeChances>
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
     </xenotypeSet>
     <raidCommonalityFromPointsCurve>
       <points>
@@ -95,6 +100,8 @@
         <options>
           <Tribal_ChiefRanged>5</Tribal_ChiefRanged>
           <Tribal_ChiefMelee>5</Tribal_ChiefMelee>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">5</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">3</BS_Troll_Ranged_Adult>
           <PirateBoss>1</PirateBoss>
           <Town_Guard>10</Town_Guard>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
@@ -126,6 +133,10 @@
         <options>
           <Villager>20</Villager>
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">3</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">3</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">2</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
         </options>
@@ -146,6 +157,10 @@
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">2</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
         </guards>
       </li>
       <li>
@@ -155,6 +170,10 @@
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
           <Town_Guard>10</Town_Guard>
           <Town_Councilman>10</Town_Councilman>
+          <BS_Troll_Archer_Young MayRequire="RedMattis.BigSmall">2</BS_Troll_Archer_Young>
+          <BS_Troll_Simple_Young MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Young>
+          <BS_Troll_Simple_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Simple_Adult>
+          <BS_Troll_Ranged_Adult MayRequire="RedMattis.BigSmall">1</BS_Troll_Ranged_Adult>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
