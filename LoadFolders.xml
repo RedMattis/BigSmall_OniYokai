@@ -2,21 +2,17 @@
   <v1.4>
     <li>/</li>
     <li>1.4</li>
-    <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
     <li IfModNotActive="RedMattis.Undead">1.4/Mods/RedMattis_Undead</li>
   </v1.4>
   <v1.5>
     <li>/</li>
     <li>1.5</li>
-    <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
     <li IfModNotActive="RedMattis.Undead">1.5/Mods/RedMattis_Undead</li>
     <li IfModActive="Ludeon.Rimworld.Anomaly">1.5/Anomaly</li>
   </v1.5>
   <v1.6>
     <li>/</li>
     <li>1.6</li>
-    <!-- <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods/Snek</li> -->
-    <li IfModNotActive="RedMattis.Undead">1.6/Mods/RedMattis_Undead</li>
     <li IfModActive="Ludeon.Rimworld.Anomaly">1.6/Anomaly</li>
   </v1.6>
 </loadFolders>
