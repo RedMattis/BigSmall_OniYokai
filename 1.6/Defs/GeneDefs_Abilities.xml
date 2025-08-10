@@ -139,7 +139,7 @@
     <verbProperties>
       <verbClass>Verb_CastAbilityJump</verbClass>
       <label>jump</label>
-      <violent>false</violent>
+      <violent>true</violent>
       <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
       <warmupTime>0.5</warmupTime>
       <range>10.9</range>
@@ -148,7 +148,7 @@
       <soundLanding>Longjump_Land</soundLanding>
       <targetParams>
         <canTargetLocations>true</canTargetLocations>
-        <canTargetPawns>false</canTargetPawns>
+        <canTargetPawns>true</canTargetPawns>
         <canTargetBuildings>false</canTargetBuildings>
       </targetParams>
     </verbProperties>
