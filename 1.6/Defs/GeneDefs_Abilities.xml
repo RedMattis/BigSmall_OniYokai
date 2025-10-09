@@ -94,7 +94,7 @@
       <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
         <projectileDef>BS_Proj_FireExplosive</projectileDef>
         <radiusToHit>0</radiusToHit>
-        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+        <!-- <sprayEffecter>AcidSpray_Directional</sprayEffecter> -->
       </li>
     </comps>
   </AbilityDef>
@@ -157,7 +157,7 @@
       <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
         <projectileDef>BS_Proj_Fire</projectileDef>
         <radiusToHit>1</radiusToHit>
-        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+        <!-- <sprayEffecter>AcidSpray_Directional</sprayEffecter> -->
       </li>
     </comps>
   </AbilityDef>
