@@ -2,7 +2,7 @@
   <XenotypeDef>
     <defName>BS_Kitsune</defName>
     <label>Kitsune</label>
-    <description>It is said that they grow one tail every 100 years, and every time they do their psychic powers increase significantly.\n\nConsidering how many nine-tailed kintsune seem to be about that seems questionable.</description>
+    <description>It is said that they grow one tail every 100 years, and every time they do their psychic powers increase significantly.\n\nConsidering how many nine-tailed kitsune seem to be about that seems questionable.</description>
     <iconPath>Xenotypes/BS_Kitsune</iconPath>
     <inheritable>true</inheritable>
     <combatPowerFactor>2</combatPowerFactor>
