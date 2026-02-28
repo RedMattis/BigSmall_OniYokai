@@ -55,7 +55,7 @@
   <GeneDef>
     <defName>BS_FoxFire</defName>
     <label>foxfire</label>
-    <description>Carriers of this gene possess the ability to launch a ball of explosive fire at a nearby target.</description>
+    <description>Carriers of this gene possess the ability to launch a ball of explosive fire at a nearby target.\n\nThe size of the fireball scales with the user's Soul Power.</description>
     <displayCategory>Archite</displayCategory>
     <iconPath>GeneIcons/BS_Fireball</iconPath>
     <canGenerateInGeneSet>true</canGenerateInGeneSet>
@@ -75,7 +75,7 @@
   <AbilityDef>
     <defName>BS_KitsuneFireball</defName>
     <label>foxfire</label>
-    <description>launch a ball of explosive fire at a nearby target.</description>
+    <description>launch a ball of explosive fire at a nearby target.\n\nThe size of the fireball scales with the user's Soul Power.</description>
     <iconPath>GeneIcons/BS_Fireball</iconPath>
     <cooldownTicksRange>1500</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
@@ -92,9 +92,25 @@
     </verbProperties>
     <comps>
       <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
-        <projectileDef>BS_Proj_FireExplosive</projectileDef>
+        <projectileDef>BS_Proj_Fireball</projectileDef>
         <radiusToHit>0</radiusToHit>
-        <!-- <sprayEffecter>AcidSpray_Directional</sprayEffecter> -->
+        <projectileByStat>
+          <stat>BS_SoulPower</stat>
+          <projectileAtValue>
+            <li>
+              <value>0.99</value>
+              <def>BS_Proj_FireBallBig</def>
+            </li>
+            <li>
+              <value>1.99</value>
+              <def>BS_Proj_FireBallBigger</def>
+            </li>
+            <li>
+              <value>2.99</value>
+              <def>BS_Proj_FireBallBiggest</def>
+            </li>
+          </projectileAtValue>
+        </projectileByStat>
       </li>
     </comps>
   </AbilityDef>
@@ -155,9 +171,22 @@
     <jobDef>CastJump</jobDef>
     <comps>
       <li Class="BigAndSmall.CompProperties_AbilitySprayLiquid">
-        <projectileDef>BS_Proj_Fire</projectileDef>
+        <projectileDef>BS_FireBolt</projectileDef>
         <radiusToHit>1</radiusToHit>
-        <!-- <sprayEffecter>AcidSpray_Directional</sprayEffecter> -->
+        <scaling>
+          <li>
+            <tag>AoE</tag>
+            <stat>BS_SoulPower</stat>
+            <isOffset>true</isOffset>
+            <curve>
+              <points>
+                <li>(0, 0)</li>
+                <li>(0.99, 1)</li>
+                <li>(2.99, 2)</li>
+              </points>
+            </curve>
+          </li>
+        </scaling>
       </li>
     </comps>
   </AbilityDef>
